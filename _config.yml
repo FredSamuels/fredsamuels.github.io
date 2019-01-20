@@ -1,2 +1,274 @@
-title: My Site
-theme: jekyll-theme-hacker
+# Config
+# ========================================================================================
+
+title:                 Samuels.ws
+
+# Language of your content in 2-letter code, eg: en, de.
+# You may also provide a location, eg: en-us, de_AT.
+lang:                  en-us
+
+# The unique resource location of your page.
+# Set to `https://<username>.github.io` when hosting on GitHub Pages.
+#url:                   https://ferrell.io
+
+# Set to '' when hosting on GitHub Pages, like `//<username>.github.io`.
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository.
+baseurl:               ""
+
+# A short description of the page used for the meta description tag.
+description:           >
+  PowerShell, Google Cloud, AWS, life.
+
+# A shorter description for the sidebar.
+tagline:               >
+  PowerShell, Google Cloud, AWS, life.
+
+# A list of keywords for your blog, will be used as fallback
+# for pages that don't have `keywords` in their front matter.
+keywords:              [PowerShell,DevOps,photography,code,javascript,python,ruby,C#,typescript,technology,AWS,CloudFormation,Azure,Google Cloud Platform,Amazon Web Services,JSON,SDK,.NET]
+
+# A (optional) logo for the page. Used by jekyll-seo-tag.
+logo:                  /assets/icons/icon.png
+
+# This should be the same author as first entry in `_data/authors.yml`.
+# Duplication is necessary due to the jekyll-feed plugin.
+author:
+  name:                Fred Samuels
+  email:               Fred@Samuels.ws
+  # The remainder of the author configuration is located in `_data/authors.yml`...
+
+# This text will appear in a `<small>` tag in the footer of every page.
+copyright:             © 2017-2018 Fred Samuels
+# Format of the permalinks
+permalink:             pretty
+
+# Pagination configuration (used by the `blog` layout)
+paginate:              5
+paginate_path:         '/blog/page-:num/'
+
+# Default front matter
+defaults:
+  - scope:
+      type: posts
+    values:
+      comments: true
+
+# Customizaton
+# ========================================================================================
+
+# HYDE FONT SETTINGS
+#google_fonts: Abril+Fatface:400|PT+Sans:400,400i,700,700i
+#font:         "'PT Sans', Helvetica, Arial, sans-serif"
+#font_heading: "'PT Sans', Helvetica, Arial, sans-serif"
+#accent_color: '#268bd2'
+#accent_image:
+#  background: '#202020'
+#  overlay:    false
+
+# HYDE + ORIGINAL
+google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i|Abril+Fatface:400
+font:         "'Noto Sans', Helvetica, Arial, sans-serif"
+font_heading: "'Roboto Slab', Helvetica, Arial, sans-serif"
+accent_color: '#4fb1ba'
+accent_image:
+  background: '#31343F'
+  overlay:    false
+
+# ORIGINAL FONT SETTINGS
+# The string encoding which fonts to fetch from Google Fonts.
+# See: <https://qwtel.com/hydejack/docs/configuration/>
+#google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+#
+## The text font. Expects a string that is a valid CSS font-family value.
+#font:                  "'Noto Sans', Helvetica, Arial, sans-serif"
+#
+## The font used for headings. Expects a string that is a valid CSS font-family value.
+#font_heading:          "'Roboto Slab', Helvetica, Arial, sans-serif"
+#
+## Fallback image and color
+#accent_image:          /assets/img/sidebar-bg.jpg
+#accent_color:          '#4fb1ba'
+
+
+
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
+#disqus:                ferrell-io
+
+# Setting a tinyletter username will enable the newsletter subscription box.
+#tinyletter:            ferrell-io
+
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+#google_analytics:      UA-101420411-2
+#google_ad_client:      ca-pub-3314102410763820
+
+# Flattr ID for meta tag
+#flattr:                knpdqj
+
+
+# Hydejack Flags
+# ----------------------------------------------------------------------------------------
+
+hydejack:
+  # Configure the order of complementary content on blog posts
+  #post_addons:         [about, newsletter, related, random]
+  post_addons:         [related, about]
+
+  # Configure the order of complementary content on project pages
+  project_addons:      [about, other]
+
+  # If you do not use Google Fonts, set to `true`.
+  no_google_fonts:     false
+
+  # Set to `true` if you don't want to show an icon indicating external links
+  no_mark_external:    false
+
+  # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  no_push_state:       false
+
+  # Set to `true` if you want to disable the drawer
+  no_drawer:           false
+
+  # Set to `true` if you do not want parts of the css inlined in <head/>
+  # This *may* be benefitial when serving the site over HTTP/2.
+  no_inline_css:       false
+
+  # Code blocks and tables "break" the layout by spanning the full available width.
+  # Set this to true if you want them to be the same width as other content.
+  no_break_layout:     false
+
+  # Set to `true` if you do not want to expose your resume and projects
+  # in machine-readable formats.
+  no_structured_data:  false
+
+  # You can set this to `true` if you don't want to set the `theme-color` meta tag,
+  # This only affects the meta tag, not the color specified in the app manifest.
+  no_theme_color:      false
+
+  # Set to `true` when building with the `--lsi` option
+  use_lsi:             false
+
+
+# Collections
+# ========================================================================================
+
+collections:
+  featured_categories:
+    permalink:         /category/:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag/:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
+
+
+# File inclusion/exclusion
+# ========================================================================================
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - _drafts/
+  - LICENSE.md
+  - NOTICE.md
+# include:
+
+
+# Plugins and Plugin Configuration
+# ========================================================================================
+
+plugins:
+  - jekyll-avatar
+  # - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  # - jekyll-optional-front-matter
+  - jekyll-paginate
+  # - jekyll-readme-index
+  # - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-titles-from-headings
+
+
+# SEO Tag
+# ---------------------------------------------------------------------------------------
+
+# Where you proof that you own this site (used by jekyll-seo-tag)
+# google_site_verification: <verification-id>
+# -- or --
+# webmaster_verifications:
+#   google:              <verification-id>
+#   bing:                <verification-id>
+#   alexa:               <verification-id>
+#   yandex:              <verification-id>
+
+# Used for Twitter cards
+# twitter:
+#   username:            scrthq
+
+# Used for Facebook open graph
+# facebook:
+#   app_id:              <id>
+#   publisher:           <id>
+#   admins:              <id>
+
+# Used on index and about sites
+social:
+  name:                Nate Ferrell
+  links:
+    - https://twitter.com/scrthq
+    - https://github.com/scrthq
+
+
+# Other Plugins
+# ---------------------------------------------------------------------------------------
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+kramdown:
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
+
+# If you are upgrading form v5 (or earlier), uncomment the lines below,
+# so that the location of the feed XML stays the same.
+# feed:
+#   path:                atom.xml

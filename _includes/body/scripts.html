@@ -1,0 +1,30 @@
+{% unless page.redirect %}
+  {% if site.google_analytics %}
+  <!--
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+    loadJSDeferred('https://www.google-analytics.com/analytics.js');
+  </script>
+  -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  {% endif %}
+
+  <!--[if gt IE 9]><!---->
+  {% capture js_url %}{% link assets/js/hydejack.js %}?v=7.1.0{% endcapture %}
+  <script>loadJSDeferred('{{ js_url | relative_url }}');</script>
+
+  {% include my-scripts.html %}
+
+  <!--<![endif]-->
+{% endunless %}

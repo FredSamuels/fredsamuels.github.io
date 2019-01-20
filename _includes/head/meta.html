@@ -1,0 +1,53 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+{% unless page.redirect %}
+  {% if plugins contains 'jekyll-seo-tag' %}{% include head/seo-tag.html %}
+  {% else %}{% include head/seo-fallback.html %}{% endif %}
+
+  {% if site.keywords or page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | default:site.keywords | join:',' }}">
+  {% endif %}
+{% else %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  <title>{{ site.data.strings.redirecting | default:"Redirecting..." }}</title>
+{% endunless %}
+
+{% if site.flattr %}
+  <meta name="flattr:id" content="{{ site.flattr }}">
+{% endif %}
+
+<!-- facebook open graph tags -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ "/assets/img/twitter-card-image.png" | prepend: site.url }}{% endif %}" />
+
+<!-- twitter card tags additive with the og: tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:domain" value="{{ page.url | prepend: site.url }}" />
+<meta name="twitter:title" value="{{ page.title }}" />
+<meta name="twitter:description" value="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ "/assets/img/twitter-card-image.png" | prepend: site.url }}{% endif %}" />
+<meta name="twitter:url" value="{{ page.url | prepend: site.url }}" /> {% if page.label1 %}
+<meta name="twitter:label1" content="{{ page.label1 }}" /> {% endif %} {% if page.data1 %}
+<meta name="twitter:data1" content="{{ page.data1 }}" /> {% endif %} {% if page.label2 %}
+<meta name="twitter:label2" content="{{ page.label2 }}" /> {% endif %} {% if page.data2 %}
+<meta name="twitter:data2" content="{{ page.data2 }}" /> {% endif %}
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="{{ site.title }}">
+<meta name="msapplication-config" content="{{ '/assets/ieconfig.xml' | relative_url }}">
+
+{% unless site.hydejack.no_theme_color %}
+<meta name="theme-color" content="{{ color | default:'#4fb1ba' }}">
+{% endunless %}
+
+<meta name="generator" content="Hydejack v7.1.0" />

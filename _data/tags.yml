@@ -1,0 +1,18 @@
+aws:
+  name: AWS
+dev-env:
+  name: Dev Environment
+explorations:
+  name: Explorations
+google-apps-script:
+  name: Google Apps Script
+googlisms:
+  name: Googlisms
+javascript:
+  name: JavaScript
+life:
+  name: Life
+powershell:
+  name: PowerShell
+vscode:
+  name: Visual Studio Code

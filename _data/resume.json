@@ -1,0 +1,188 @@
+{
+  "basics": {
+    "name": "Nate Ferrell",
+    "label": "Sr. Systems/DevOps Engineer",
+    "picture": "/assets/img/128x128.png",
+    "email": "n@ferrell.io",
+    "phone": "",
+    "website": "https://ferrell.io/",
+    "summary": "Nate is originally from Los Angeles but is now based in Dallas. While not working in office as a full time DevOps engineer, he spends his time working on Open Source projects. His favorite language to work with is PowerShell, but he's constantly switching between Ruby, Python and JavaScript as well. He other interests outside of work include wrestling with his dogs and figuring out what should be in the world's best hot sauce.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dallas/Plano",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "scrthq",
+        "url": "https://twitter.com/scrthq"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "scrthq",
+        "url": "https://www.linkedin.com/in/scrthq/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "SCRT HQ",
+      "position": "Founder/Developer",
+      "website": "http://vaporshell.io",
+      "startDate": "2015-12-01",
+      "endDate": "",
+      "summary": "SCRT HQ (Secret Headquarters) is an organization that I started to house the personal projects that I am developing. These are primarily PowerShell modules that I felt would be mutually beneficial for the general public as well as myself/my workplace, created out of either a current need in my role or pure curiosity. Most of the modules that I publish are REST API wrappers or .NET SDK wrappers, although I do have a number of modules I have yet to push that are for more Windows-admin centric tasks.",
+      "highlights": [
+        "Developed VaporShell, a PowerShell module to assist in AWS CloudFormation template building and stack management",
+        "Developed vscode-gitter, the first extension for Visual Studio Code to send code snippets/files directly to Gitter from the editor",
+        "Developed PSGSuite, a PowerShell module that wraps Google's various API's, enabling automation capabilities with G Suite / Google Drive for system administrators"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "AWS Certified Developer - Associate",
+      "date": "2018-01-20",
+      "awarder": "Amazon Web Services",
+      "summary": "Validation Number: Z076ERWKJN4411SR"
+    },
+    {
+      "title": "AWS Certified SysOps Administrator - Associate",
+      "date": "2018-01-20",
+      "awarder": "Amazon Web Services",
+      "summary": "Validation Number: 0F95E11KB1BQ175E"
+    },
+    {
+      "title": "AWS Certified Solutions Architect - Associate",
+      "date": "2017-04-19",
+      "awarder": "Amazon Web Services",
+      "summary": "Validation Number: 9MEFH7TC12VQ1151"
+    },
+    {
+      "title": "Certified Performance Pro",
+      "date": "2017-11-06",
+      "awarder": "New Relic",
+      "summary": "License 10979094"
+    },
+    {
+      "title": "Certified G Suite Administrator",
+      "date": "2015-12-03",
+      "awarder": "Google",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Powershell",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "G Suite / Google APIs",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "VMware",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Windows Server",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "System Architecture",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Technical Support",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Troubleshooting",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Active Directory",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "RESTful WebServices",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "G Suite Admin SDK",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Google APIs",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "Beginner",
+      "keywords": []
+    },
+    {
+      "name": "Transact-SQL (T-SQL)",
+      "level": "Begineer",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rescuing Dogs",
+      "keywords": [
+        "Pit Bulls",
+        "American Staffordshire Terriers",
+        "American Bulldogs"
+      ]
+    }
+  ]
+}
