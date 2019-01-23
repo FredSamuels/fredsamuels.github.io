@@ -1,14 +1,14 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-nferrell:
-  name:              Nate Ferrell
-  email:             n@ferrell.io
+fsamuels:
+  name:              Fred Samuels
+  email:             me@samuels.ws
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    Nate lives in Dallas, TX with his wife, son and their 4 ~~fur children~~ dogs. He is passionate about PowerShell development, DevOps culture, mechanical keyboards, gaming, sound engineering and new technology in general. Outside of the office and IDE, he's typically playing PC games, taking photos with his wife or playing with the pups. 
+    About Stuff
 
   # This photo will be used in the about section
   picture:
@@ -22,11 +22,11 @@ nferrell:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    github:          scrthq
-    stackoverflow:   5302680
-    twitter:         scrthq
-    linkedin:        scrthq
-    rss:             https://ferrell.io/feed.xml
+    github:          fredsamuels
+    #stackoverflow:   5302680
+    twitter:         fredsamuels
+    linkedin:        fredsamuels
+    #rss:             https://ferrell.io/feed.xml
     # soundcloud:      nonfuture
     # email:           mailto:n@ferrell.io
     # facebook:        <username>
@@ -62,22 +62,5 @@ nferrell:
     # download:        https://github.com/qwtel/hydejack/archive/v6.6.1.zip
 
   # Used by `jekyll-seo-tag`:
-  twitter:           scrthq
+  twitter:           fredsamuels
 
-# Another author
-#lferrell:
-#  name:              Lauren Ferrell
-#  email:             l@ferrell.io
-#  about:             |
-#    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-#    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-#
-#    Open `_data/authors.yml` to edit this text.
-#  picture:           https://placehold.it/128x128
-#  #twitter:           <username>
-#  #github:            <username>
-#  accent_color:      '#268bd2'
-#  accent_image:
-#    background:      '#202020'
-#    overlay:         false

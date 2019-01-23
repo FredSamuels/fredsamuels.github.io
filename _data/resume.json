@@ -1,33 +1,150 @@
 {
   "basics": {
-    "name": "Nate Ferrell",
-    "label": "Sr. Systems/DevOps Engineer",
+    "name": "Fred Samuels",
+    "label": "Enterprise Technology Advisor and Global Solutions Architect",
     "picture": "/assets/img/128x128.png",
-    "email": "n@ferrell.io",
+    "email": "me@samuels.ws",
     "phone": "",
-    "website": "https://ferrell.io/",
-    "summary": "Nate is originally from Los Angeles but is now based in Dallas. While not working in office as a full time DevOps engineer, he spends his time working on Open Source projects. His favorite language to work with is PowerShell, but he's constantly switching between Ruby, Python and JavaScript as well. He other interests outside of work include wrestling with his dogs and figuring out what should be in the world's best hot sauce.",
+    "website": "https://samuels.ws/",
+    "summary": "Engineering innovative solutions for enterprise environments as a subject matter expert while providing architecture designs, solution planning, project management and risk mitigation to the organization. I am a highly motivated information technology professional with proven leadership abilities working with executives at all levels of an organization. Successfully performed in the roles of director of IT, program / project manager, enterprise architect, and technical lead, while designing, deploying, and evaluating technology and business solutions. Focused on business strategy to align projects and technology. Solid understanding of the requirements of supporting an organization’s ongoing technical operations needs for business growth and development. Develop infrastructure that enables end users to perform their responsibilities and positively impact organization’s ability to do business.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Dallas/Plano",
+      "city": "Houston and Travel",
       "countryCode": "US",
       "region": "Texas"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "scrthq",
-        "url": "https://twitter.com/scrthq"
+        "username": "fredsamuels",
+        "url": "https://twitter.com/fredsamuels"
       },
       {
         "network": "LinkedIn",
-        "username": "scrthq",
-        "url": "https://www.linkedin.com/in/scrthq/"
+        "username": "fredsamuels",
+        "url": "https://www.linkedin.com/in/fredsamuels/"
       }
     ]
   },
   "work": [
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
+    {
+      "company": "PennyMac",
+      "position": "Sr. Systems/DevOps Engineer",
+      "website": "https://pennymacusa.com",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "As a top direct national mortgage lender, PennyMac is committed to providing its customers with a range of innovative solutions to help them purchase, refinance or simply remain in their homes. Whether they’re first-time buyers who are new to the loan process or someone who is specifically seeking a competitive Conventional, FHA or VA loan, PennyMac is dedicated to offering great rates and unparalleled service.",
+      "highlights": [
+        "Automated malicious email quarantine and notification to dramatically decrease risk of infection to end users",
+        "Integrated SQL server job failures with ServiceNow's Event Management",
+        "Implemented custom automation to manage entitlement provisioning in various systems where there was no way to accomplish it out-of-the-box"
+      ]
+    },
     {
       "company": "PennyMac",
       "position": "Sr. Systems/DevOps Engineer",
