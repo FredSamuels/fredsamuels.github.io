@@ -13,7 +13,7 @@ more_projects: projects.md
 more_posts: posts.md
 content_separator: <!--more-->
 comments: false
-accent_image: /assets/img/sidebar-bg.png
+accent_image: /assets/img/white-bg.jpeg
 ---
 
 ### Hello there!
