@@ -24,6 +24,9 @@ accent_image: /assets/img/projects/vaporshell/banner.jpg
 
 ![Typeface](../assets/img/projects/vaporshell/pic02.jpg){:.lead}
 
+![Typeface](../assets/img/cbi_mulberry.jpg){:.lead}
+
+
 VaporShell was originally designed to leverage PowerShell to build CloudFormation templates. Since version 1.0.0, it has grown into a full-fledged CloudFormation management tool.
 
 Here are some key features of VaporShell:
